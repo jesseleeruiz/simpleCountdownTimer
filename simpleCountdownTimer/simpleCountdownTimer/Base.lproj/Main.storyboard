@@ -24,6 +24,9 @@
                                 <state key="normal" image="play.circle" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="150"/>
                                 </state>
+                                <connections>
+                                    <action selector="playPausePressed:" destination="3WS-Oi-RTL" eventType="touchUpInside" id="TYj-th-cPC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sXX-9t-Fcy">
                                 <rect key="frame" x="162" y="814" width="91" height="48"/>
@@ -31,6 +34,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelPressed:" destination="3WS-Oi-RTL" eventType="touchUpInside" id="ycn-BE-DrT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -45,6 +51,11 @@
                         <viewLayoutGuide key="safeArea" id="MnC-Ob-LV1"/>
                     </view>
                     <navigationItem key="navigationItem" id="60X-pn-qAO"/>
+                    <connections>
+                        <outlet property="cancelButton" destination="sXX-9t-Fcy" id="vN9-qE-yuE"/>
+                        <outlet property="playPauseButton" destination="AaP-EM-Evo" id="Hw0-qC-Xd2"/>
+                        <outlet property="timePicker" destination="ahh-yV-vKl" id="vU9-99-gVg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mGY-7I-eCs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

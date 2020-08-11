@@ -14,7 +14,10 @@ class TimerViewController: UIViewController {
     
     
     // MARK: - Outlets
-
+    @IBOutlet weak var timePicker: UIDatePicker!
+    @IBOutlet weak var playPauseButton: UIButton!
+    @IBOutlet weak var cancelButton: UIButton!
+    
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,18 +25,20 @@ class TimerViewController: UIViewController {
     }
         
     // MARK: - Actions
+    @IBAction func playPausePressed(_ sender: UIButton) {
+        
+    }
     
+    @IBAction func cancelPressed(_ sender: UIButton) {
+        
+    }
     
     // MARK: - Methods
 
-    /*
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
     }
-    */
-
 }
