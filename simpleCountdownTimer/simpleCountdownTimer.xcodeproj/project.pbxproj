@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		800DB5FA24E2224800A26B69 /* countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800DB5F924E2224800A26B69 /* countdown.swift */; };
 		8022F1F424C4E26E00234C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022F1F324C4E26E00234C14 /* AppDelegate.swift */; };
 		8022F1F624C4E26E00234C14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022F1F524C4E26E00234C14 /* SceneDelegate.swift */; };
 		8022F1FB24C4E26E00234C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8022F1F924C4E26E00234C14 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		800DB5F924E2224800A26B69 /* countdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countdown.swift; sourceTree = "<group>"; };
 		8022F1F024C4E26E00234C14 /* simpleCountdownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleCountdownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8022F1F324C4E26E00234C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8022F1F524C4E26E00234C14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				8022F1FE24C4E27600234C14 /* LaunchScreen.storyboard */,
 				8022F20124C4E27600234C14 /* Info.plist */,
 				80BDF6D724D4CC2800B38390 /* TimerViewController.swift */,
+				800DB5F924E2224800A26B69 /* countdown.swift */,
 			);
 			path = simpleCountdownTimer;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				8022F1F424C4E26E00234C14 /* AppDelegate.swift in Sources */,
 				80BDF6D824D4CC2800B38390 /* TimerViewController.swift in Sources */,
 				8022F1F624C4E26E00234C14 /* SceneDelegate.swift in Sources */,
+				800DB5FA24E2224800A26B69 /* countdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
